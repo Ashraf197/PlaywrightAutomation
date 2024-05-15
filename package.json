@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test -g SurveyEngineer"
+    "test": "npx playwright test -g SurveyEngineer",
+    "generateAllureReport": "npx allure generate ./allure-results --clean",
+    "openAllureReport": "npx allure open ./allure-report"
   },
   "keywords": [],
   "author": "",
