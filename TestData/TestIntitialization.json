@@ -1,0 +1,12 @@
+{
+
+    "baseURL" : "https://surveyrc.taxcreditco.com/automation-challenge",
+    "firtName": "Tony",
+    "lastName": "Stark",
+    "email": "TonyStart007@gmail.com",
+    "street": "Kingston Street",
+    "city": "Indianapolis",
+    "zipCode": "46204",
+    "verifyUrl": "https://www.experian.com/employer-services"
+
+}
