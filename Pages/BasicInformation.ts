@@ -70,11 +70,8 @@ export default class BasicInformation{
         const currentUrl = this.page.url();
         console.log(currentUrl);
 
-        const redirectedUrl = await expect(currentUrl).toContain(data.verifyUrl);
-        if(redirectedUrl!=null){
-    
-            console.log("Post Redirection URL Validated Successfully ==>> " + currentUrl);
-        }
+        await expect(currentUrl).toContain(data.verifyUrl);
+        console.log("Post Redirection URL Validated Successfully ==>> " + currentUrl);
     }
 
 
